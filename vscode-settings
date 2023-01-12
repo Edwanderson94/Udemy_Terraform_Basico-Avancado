@@ -1,3 +1,7 @@
+#------------------------------------------------------
+# Configuration of VSCODE with terraform bp
+#------------------------------------------------------
+
 {
     "security.workspace.trust.untrustedFiles": "open",
     "liveServer.settings.donotShowInfoMsg": true,
