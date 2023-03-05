@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "first_resource_group" {
-  name     = "Storage_account_resource_group"
+  name     = "storage_account_resource_group"
   location = var.location
 
   tags = local.common_tags
@@ -17,5 +17,5 @@ resource "azurerm_storage_account" "first_storage_account" {
 
 resource "azurerm_storage_container" "first_container" {
   name                 = "image-demo"
-  storage_account_name = azurerm_storage_account.first_storage_account
+  storage_account_name = azurerm_storage_account.first_storage_account.name
 }

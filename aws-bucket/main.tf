@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.0.0"
+  # required_version = ">= 1.0.0"
 
   required_providers {
     aws = {
@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-central-1"
+  region = "sa-east-1"
   default_tags {
     tags = {
       owner      = "edevops"
