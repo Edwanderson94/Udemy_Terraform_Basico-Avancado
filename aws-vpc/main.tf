@@ -8,6 +8,12 @@ terraform {
       version = "4.12.1"
     }
   }
+
+  backend "s3" {
+    bucket = "edwanderson-remote-state-aws-az"
+    key    = "aws-vpc/terraform.tfstate"
+    region = "sa-east-1"
+  }
 }
 
 provider "aws" {
