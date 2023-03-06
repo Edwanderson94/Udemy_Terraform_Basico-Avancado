@@ -1,3 +1,11 @@
+#######################################################################
+# AZURE - STORAGE ACCOUNT
+# GRUPO DE STORAGE ACCOUNT 
+# CONTAINER PARA A STORAGE ACCOUNT
+# RECURSO DE VERSIONAMENTO ATIVADO
+#######################################################################
+
+
 resource "azurerm_resource_group" "first_resource_group" {
   name     = "remote-state"
   location = var.location
