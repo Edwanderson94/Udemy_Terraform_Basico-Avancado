@@ -1,11 +1,18 @@
-# sandbox-udemy
-Uso de arquivos terraform do curso udemy
+<h2> Nome do Projeto: </h2>
 
-# Estrutura de Pastas
+<h3> Descrição: Uso de arquivos terraform do curso udemy </h3>
 
-aws-bucket: 
-- Utilizado no módulo de terraform state para criar um bucket s3 na aws
+# <h2> Estrutura de Pastas </h2>
 
-aws-azure-remote-state
-- Utilizado no módulo de terraform state para criar um remote state na azure e na aws através de recursos de armazenamento, na aws o bucket e na azure o storage account, iremos criar nas duas clouds utilizando o mesmo terraform.
-
+## Nome da pasta: aws-bucket 
+### Descrição: Criação de bucket s3 na aws
+#### Módulo: Terraform State
+---
+## Nome da pasta: aws-azure-remote-state 
+### Descrição: Criação de remote state na azure (storage account) e aws (bucket), criação nas duas clouds.
+#### Módulo: Terraform State
+---
+## Nome da pasta: aws-vpc 
+### Descrição: Criação de uma VPC, Subnet, Bucket, Outputs, Security Group, Internet Gateway, Route Table, Route Table Association 
+#### Módulo: Terraform State
+---
