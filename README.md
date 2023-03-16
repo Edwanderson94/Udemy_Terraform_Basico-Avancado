@@ -2,7 +2,7 @@
 
 <h3> Descrição: Uso de arquivos terraform do curso udemy </h3>
 
-# <h2> Estrutura de Pastas </h2>
+<h2> Estrutura de Pastas </h2>
 
 ## Nome da pasta: aws-bucket 
 ### Descrição: Criação de bucket s3 na aws
