@@ -24,6 +24,9 @@ Observações: Ao final da execução dos arquivos terraform será apresentado o
 
 <coletar os prints e anexar nessa região>
 
+<div>
+  <img alt="TF-Apply-VMIp"  src="https://github.com/Edwanderson94/archieve-img/blob/master/sandbox-udemy/aws-vm-com-vpc-remote-state/IP%20da%20VM%20p%C3%B3s%20provisionamento.png" />
+</div>
 
 ### Arquitetura
 
