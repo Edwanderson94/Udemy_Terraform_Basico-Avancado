@@ -1,3 +1,10 @@
+###############################################################################################################
+# Udemy - Terraform do basico ao avançado
+# Seção - 
+# Pré-Requisitos - Executar a criação da VPC (Pasta aws-vpc)
+# Resumo de ação - Criação de VM e Key Pair
+###############################################################################################################
+
 terraform {
   required_version = ">= 1.0.0"
 

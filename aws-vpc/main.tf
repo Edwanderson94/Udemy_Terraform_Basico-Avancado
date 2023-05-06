@@ -1,3 +1,10 @@
+###############################################################################################################
+# Udemy - Terraform do basico ao avançado
+# Seção - 
+# Pré-Requisitos - 
+# Resumo de ação - Criação de VPC, Subnet, Route Table, Internet Gateway, Security Group
+###############################################################################################################
+
 terraform {
   required_version = ">= 1.0.0"
 
