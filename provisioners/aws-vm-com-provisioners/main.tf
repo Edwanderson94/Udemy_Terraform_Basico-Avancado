@@ -7,11 +7,12 @@ terraform {
       #version = "~> 4.0" --> teste realizado e funcionou!
       version = "4.12.1"
     }
+  }
 
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "~> 3.0"
-    }
+  backend "s3" {
+    bucket = "edwanderson-remote-state-aws-az"
+    key    = "aws-vm-provisioners/terraform.tfstate"
+    region = "sa-east-1"
   }
 }
 
@@ -24,7 +25,11 @@ provider "aws" {
     }
   }
 }
-
-provider "azurerm" {
-  features {}
+data "terraform_remote_state" "vpc" {
+  backend = "s3"
+  config = {
+    bucket = "edwanderson-remote-state-aws-az"
+    key    = "aws-vpc/terraform.tfstate"
+    region = "sa-east-1"
+  }
 }
