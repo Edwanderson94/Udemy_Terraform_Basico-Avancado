@@ -18,7 +18,7 @@ terraform {
 
   backend "s3" {
     bucket = "edwanderson-remote-state-aws-az"
-    key    = "aws-vpc-dynamic-block/terraform.tfstate"
+    key    = "aws-vpc-for-expressions/terraform.tfstate"
     region = "sa-east-1"
   }
 }
