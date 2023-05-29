@@ -1,3 +1,9 @@
+# ============================================================================
+# Antes de executar a pipeline, executar o código para a criação da VPC,
+# caso contrário não funcionará a execução da pipeline.
+#
+# ============================================================================
+
 terraform {
   required_version = ">= 1.0.0"
 

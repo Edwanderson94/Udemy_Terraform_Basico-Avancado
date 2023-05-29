@@ -38,6 +38,7 @@ apply:
   script:
     - terraform apply plan.out
   cache:
+    key: plan
     policy: pull
     paths:
       - plan.out
