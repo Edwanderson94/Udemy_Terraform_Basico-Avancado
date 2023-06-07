@@ -1,1 +1,0 @@
-Arquivo de teste para aula sobre provisioners
