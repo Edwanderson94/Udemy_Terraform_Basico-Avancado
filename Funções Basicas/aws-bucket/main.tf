@@ -1,17 +1,16 @@
 terraform {
-  required_version = ">= 1.0.0"
+  # required_version = ">= 1.0.0"
 
   required_providers {
     aws = {
-      version = "3.73.0"
       source  = "hashicorp/aws"
+      version = "~> 4.0"
     }
   }
 }
 
 provider "aws" {
-  region = "eu-central-1"
-
+  region = "sa-east-1"
   default_tags {
     tags = {
       owner      = "edevops"
