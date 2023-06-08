@@ -30,7 +30,7 @@ terraform.rc
 
 # Folder config file
 [Dd]esktop.ini
-*desktop.ini
+.desktop.ini/*
 
 
 # ========================================================================================================================
@@ -39,7 +39,7 @@ terraform.rc
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
 
 ### VisualStudioCode ###
-*.vscode/*
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
