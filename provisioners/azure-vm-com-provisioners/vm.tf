@@ -48,7 +48,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
   network_interface_ids = [azurerm_network_interface.network_interface.id]
 
   provisioner "local-exec" {
-   command = "echo ${self.public_ip_address} >> public_ip.txt"
+    command = "echo ${self.public_ip_address} >> public_ip.txt"
   }
 
   provisioner "file" {
