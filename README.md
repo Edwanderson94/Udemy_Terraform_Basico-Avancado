@@ -22,6 +22,3 @@ Observações:
 - Terraform
 - AWS
 - Azure
-
-### Licença
-
